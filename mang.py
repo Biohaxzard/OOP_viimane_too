@@ -9,8 +9,8 @@ class Karakter:
         self.elud = (elud+10)
 class Vaenlane:
     def __init__(self, elud=100, tugevus=10):
-        self.elud = elud
-        self.tegevus = tugevus
+        self.elud = (elud - 10)
+        self.tegevus = (tugevus+1)
     def kaotaelusi1(self, elud):
         self.elud = elud
         
